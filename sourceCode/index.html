@@ -3,7 +3,7 @@
 
 <head>
     <title>To-Do List</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -34,14 +34,26 @@
         <div id="main-area"> <!--This is the main area-->
             <div class="ask-task-container">
                 <div class="text-field-container">
-                    <input class="text-field" placeholder="Enter Task...">
+                    <input class="text-field" placeholder="Enter Task..." id="textfield">
                 </div>
-                <div class="add-task-button-container">
+                <div class="add-task-button-container" id="addTaskButton">
                     Add Task!
                 </div>
             </div>
             
-            <div class="tasks-view">
+            <div class="tasks-view" id="tasksContainer">
+                <div class="task" id="task">
+                    Finish Tomorrow's Homework!
+                </div>
+                <div class="task">
+                    Finish Tomorrow's Homework!
+                </div>
+                <div class="task">
+                    Finish Tomorrow's Homework!
+                </div>
+                <div class="task">
+                    Finish Tomorrow's Homework!
+                </div>
                 <div class="task">
                     Finish Tomorrow's Homework!
                 </div>
@@ -54,6 +66,7 @@
                 <div class="task">
                     Finish Tomorrow's Homework!
                 </div>
+                
             </div>
         </div>
 
