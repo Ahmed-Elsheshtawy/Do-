@@ -6,9 +6,9 @@ body{
 }
 #container{
     display: grid;
-    grid-template-columns: 20% 80%; /* 15% of the view port width, and 85% of the view port width */
-    grid-template-rows: 100%; /* 100% of the view port height */
-    gap:2px;
+    grid-template-columns: 20vw 80vw; /* 15% of the view port width, and 85% of the view port width */
+    grid-template-rows: 100%; /* 100% of the height */
+    height: 100%;
 }
 #side-bar{
     display: flex;
@@ -17,7 +17,6 @@ body{
     align-items: stretch;
     background-color: #DBEADD;
     padding: 20px;
-    border: rgb(162, 185, 162) 2px solid;
 }
 
 #logo{
@@ -105,7 +104,7 @@ body{
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     border: 1px black solid;
     border-radius: 10px;
@@ -115,4 +114,24 @@ body{
     font-weight: bold;
     color:rgb(80, 122, 107);
     background-color: #acd6c7;
+}
+#task{
+    display: none; /* Make the mold not appear */
+}
+.task-options-icons-container{
+
+}
+.task-options-icon{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 20px;
+    padding: 5px;
+    background-color: #add6c6;
+    border: 1px black solid;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.task-options-icon:hover{
+    background-color: #728a81;
 }
