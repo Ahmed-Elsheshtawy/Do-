@@ -7,7 +7,7 @@ Well, To be honest, there is probably tons of better To-Do List Web applications
 
 ## Pictures
 ### A simple design (from figma)
-<img src="./page_images/page.png" alt = "Webpage photo" width="300px"> 
+<img src="./page_images/page.png" alt = "Webpage photo" width="800px"> 
 
 ## Features
 
