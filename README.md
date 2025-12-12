@@ -6,7 +6,7 @@ A simple and clean to-do list web application for managing daily tasks.
 Well, To be honest, there is probably tons of better To-Do List Web applications that are far better than this one. But for me, this one is my favorite because **I made it myself as a practice without using AI or any assistance. 100% BY ME!**
 
 ## Pictures
-### A simple design (from figma)
+### A simple design *for you :)*
 <img src="./page_images/page.png" alt = "Webpage photo" width="800px"> 
 
 ## Features
